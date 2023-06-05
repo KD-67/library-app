@@ -16,13 +16,9 @@ body {
   display: flex;
 }
 
-.library-display {
-  border: 1px solid black;
-  flex: 1;
-}
-
 .library-container {
   border: 1px solid black;
+  flex: 1;
 }
 
 .library-ul {
@@ -40,13 +36,9 @@ li.library-list {
   background-color: var(--card-clr);
 }
 
-.add-book {
-  border: 1px solid black;
-  flex: 1;
-}
-
 .add-book-container {
   border: 1px solid black;
+  flex: 1;
 }
 
 ul.add-book-ul {

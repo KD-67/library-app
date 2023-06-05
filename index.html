@@ -10,51 +10,56 @@
   </head>
   <body>
     <div class="container">
-      <div class="library-display">
-        <div class="library-container">
-          <ul class="library-ul">
-            <li class="library-title">
-              <h1>My Library:</h1>
-            </li>
-            <li class="library-list">
-              <ol>
-                <li>
-                  <ul>
-                    <li>Title: Lorem, ipsum dolor.</li>
-                    <li>Author: Lorem, ipsum.</li>
-                    <li>Finished Book? N</li>
-                  </ul>
-                  <button type="submit" class="rmbtn">Remove</button>
-                </li>
-                <li>
-                  <ul>
-                    <li>Title: Lorem, ipsum dolor.</li>
-                    <li>Author: Lorem, ipsum.</li>
-                    <li>Finished Book? Y</li>
-                  </ul>
-                  <button type="submit" class="rmbtn">Remove</button>
-                </li>
-              </ol>
-            </li>
-          </ul>
-        </div>
+      <div class="library-container">
+        <ul class="library-ul">
+          <li class="library-title">
+            <h1>My Library:</h1>
+          </li>
+          <li class="library-list">
+            <ol class="book-info-display-list">
+              <li>
+                <ul class="book-info">
+                  <li class="titleDisplay">Title: Lorem, ipsum dolor.</li>
+                  <li class="authorDisplay">Author: Lorem, ipsum.</li>
+                  <li class="finishedStatusDisplay">Finished Book? N</li>
+                </ul>
+                <button type="submit" class="rmbtn">Remove</button>
+              </li>
+              <li>
+                <ul class="book-info">
+                  <li class="titleDisplay">Title: Lorem, ipsum dolor.</li>
+                  <li class="authorDisplay">Author: Lorem, ipsum.</li>
+                  <li class="finishedStatusDisplay">Finished Book? Y</li>
+                </ul>
+                <button type="submit" class="rmbtn">Remove</button>
+              </li>
+            </ol>
+          </li>
+        </ul>
       </div>
-      <div class="add-book">
-        <div class="add-book-container">
-          <ul class="add-book-ul">
-            <li class="add-book-title">
-              <h1>Add Book:</h1>
-            </li>
-            <li class="add-book-form-container">
-              <form action="" class="add-book-form">
-                <input type="text" placeholder="Book Title" />
-                <input type="text" placeholder="Book Author" />
-                <input type="text" placeholder="Finished / Unfinished" />
-                <button type="submit">Add book</button>
-              </form>
-            </li>
-          </ul>
-        </div>
+
+      <div class="add-book-container">
+        <ul class="add-book-ul">
+          <li class="add-book-title">
+            <h1>Add Book:</h1>
+          </li>
+          <li class="add-book-form-container">
+            <form action="" class="add-book-form">
+              <input type="text" class="title-input" placeholder="Book Title" />
+              <input
+                type="text"
+                class="author-input"
+                placeholder="Book Author"
+              />
+              <input
+                type="text"
+                class="finished-status-input"
+                placeholder="Finished / Unfinished"
+              />
+              <button type="submit">Add book</button>
+            </form>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
