@@ -1,11 +1,7 @@
 let myLibrary = [];
 
-function Book() {
-  // constructor
-}
+function Book() {}
 
 function addBookToLibrary() {
   // do stuff here
 }
-
-
