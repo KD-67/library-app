@@ -16,24 +16,7 @@
             <h1>My Library:</h1>
           </li>
           <li class="library-list">
-            <ol class="book-info-display-list">
-              <li>
-                <ul class="book-info">
-                  <li class="titleDisplay">Title: Lorem, ipsum dolor.</li>
-                  <li class="authorDisplay">Author: Lorem, ipsum.</li>
-                  <li class="finishedStatusDisplay">Finished Book? N</li>
-                </ul>
-                <button type="submit" class="rmbtn">Remove</button>
-              </li>
-              <li>
-                <ul class="book-info">
-                  <li class="titleDisplay">Title: Lorem, ipsum dolor.</li>
-                  <li class="authorDisplay">Author: Lorem, ipsum.</li>
-                  <li class="finishedStatusDisplay">Finished Book? Y</li>
-                </ul>
-                <button type="submit" class="rmbtn">Remove</button>
-              </li>
-            </ol>
+            <ol class="book-info-display-list"></ol>
           </li>
         </ul>
       </div>
@@ -45,16 +28,23 @@
           </li>
           <li class="add-book-form-container">
             <form action="" class="add-book-form">
-              <input type="text" class="title-input" placeholder="Book Title" />
+              <input
+                type="text"
+                class="title-input"
+                placeholder="Book Title"
+                required
+              />
               <input
                 type="text"
                 class="author-input"
                 placeholder="Book Author"
+                required
               />
               <input
                 type="text"
                 class="finished-status-input"
                 placeholder="Finished / Unfinished"
+                required
               />
               <button type="submit">Add book</button>
             </form>
